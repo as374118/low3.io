@@ -19,24 +19,29 @@
 }
 
 #what-we-do-title {
+  /* margin-top: 35vh; */
+  /* top: 35vh; */
+  position: absolute;
+  top: 40vh;
+  width: 100vw;
+  text-align: center;
   color: white;
-  font-size: 150%;
-  /* opacity: 0.7; */
+  font-size: 300%;
 }
 
 body {
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
     "Helvetica", "Arial", sans-serif;
+  text-align: center;
 }
 
 #main-section {
   background-image: url("../images/bg.jpg");
   background-size: cover;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   background-repeat: no-repeat;
   height: 100vh;
   text-align: center;
-  padding-top: 1vh;
 }
 
 
@@ -56,6 +61,12 @@ footer {
   width: 100%; /* Set width to 100% */
   margin: auto;
   min-height: 200px;
+}
+
+#give-money-button {
+  width: 15vw;
+  height: 4vw;
+  font-size: 60%;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */

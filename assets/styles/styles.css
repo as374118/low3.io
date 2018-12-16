@@ -1,0 +1,66 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+#faq-content-block {
+  padding-left: 33vw;
+  padding-right: 33vw;
+}
+
+#faq-content-clock p {
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+#logo {
+  width: 5vw;
+}
+
+#what-we-do-title {
+  color: white;
+  font-size: 150%;
+  /* opacity: 0.7; */
+}
+
+body {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+#main-section {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding-top: 1vh;
+}
+
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}

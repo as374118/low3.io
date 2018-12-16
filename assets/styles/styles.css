@@ -15,7 +15,8 @@
 }
 
 #logo {
-  width: 5vw;
+  /* width: 5vw; */
+  height: 20px;
 }
 
 #what-we-do-title {
@@ -63,11 +64,11 @@ footer {
   min-height: 200px;
 }
 
-#give-money-button {
+/* #give-money-button {
   width: 15vw;
   height: 4vw;
   font-size: 60%;
-}
+} */
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
